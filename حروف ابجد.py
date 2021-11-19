@@ -95,7 +95,7 @@ class abjd(QWidget):
 		except:
 			result.setText('مقدار وارد شده نادرست است.')
 
-		if newList == []:
+		if not newList == []:
 			result.setText(str(sum(newList)))
 
 		entrance.setText('')
